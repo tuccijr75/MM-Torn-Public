@@ -15,9 +15,31 @@ Current release status: **v0.5.0 RC**.
 
 The desktop/mobile interface and navigation have been verified. Live detection of a naturally spawned Torn City item is still awaiting final verification.
 
-### Installation
+### Install
 
-Install the userscript from the raw `.user.js` URL in this repository. Future released versions will use the metadata update URLs embedded in the script.
+Direct userscript URL:
+
+`https://raw.githubusercontent.com/tuccijr75/MM-Torn-Public/main/scripts/city-find-navigator/mm-city-find-navigator.user.js`
+
+Desktop:
+1. Install a userscript manager such as Tampermonkey.
+2. Open the direct userscript URL.
+3. Install/confirm the script.
+
+TornPDA:
+1. Enable custom user scripts.
+2. Set injection time to **Start**.
+3. Add the direct userscript URL in Manage Scripts.
+4. Open Torn's City map.
+
+### Updates
+
+The userscript contains `@updateURL` and `@downloadURL` metadata pointing back to this repository.
+
+For each release:
+1. Update the full `.user.js` file.
+2. Update `@version` in both the `.user.js` and `.meta.js` files.
+3. Keep both version numbers identical.
 
 ### License
 
